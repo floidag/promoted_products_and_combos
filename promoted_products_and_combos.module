@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Promoted products and combos feature.
+ */
+
+include_once 'promoted_products_and_combos.features.inc';

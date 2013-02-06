@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'AUdimatBold';
+    src: url('/sites/default/themes/okast_omega/fonts/audimat-bold-webfont.eot');
+    src: url('/sites/default/themes/okast_omega/fonts/audimat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/sites/default/themes/okast_omega/fonts/audimat-bold-webfont.woff') format('woff'),
+         url('/sites/default/themes/okast_omega/fonts/audimat-bold-webfont.ttf') format('truetype'),
+         url('/sites/default/themes/okast_omega/fonts/audimat-bold-webfont.svg#AUdimatBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Slideshow */
+div#slideshow-pager {
+  text-align: center;
+  position: relative;
+  top: -50px;
+  margin-bottom: -44px;
+  z-index: 100000;
+}
+div#slideshow-pager a {
+  z-index: 100000;
+  text-indent: -10000px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: transparent url(../images/inplace_gallery_button.png) no-repeat scroll center center;
+}
+div#slideshow-pager a:hover, div#slideshow-pager a.activeSlide {
+  text-indent: -10000px;
+  background: transparent url(../images/inplace_gallery_button_active.png) no-repeat scroll center center;
+}
+
+.view-id-front_slideshow {
+	padding-bottom: 20px;
+	border-bottom: 1px dotted #000;
+	margin-bottom: 20px;
+}
+.view-id-front_slideshow header {
+	background: none;
+	position: absolute;
+	top: 145px;
+	width: 652px;
+	text-align: center;
+}
+.view-id-front_slideshow header	h2 {
+	font-family: AUdimatBold, Helvetica, Arial, sans-serif;
+  font-style: normal !important;
+  font-weight: normal !important;
+  letter-spacing: 0.09em;
+	font-size: 40px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	background: rgba(255, 255, 255, 0.7);
+	display: block;
+	margin: 0 auto;
+	padding: 33px 0 0 0;
+	width: 390px;
+}
+.view-id-front_slideshow header	h2 div {
+	border-bottom: 1px dotted #000;
+	margin: 0 35px;
+	padding: 10px 0 25px 0;
+}
+
+.view-id-front_slideshow header	h3 {
+	background: rgba(255, 255, 255, 0.7);
+	display: block;
+	margin: 0 auto;
+	padding: 15px 0 33px 0;
+	width: 390px;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+.view-id-front_slideshow header	p {
+	padding: 0;
+	margin: 0;
+}
+
+/* Combo */
+.node-type-combo .content header {
+	background: none;
+	position: absolute;
+	top: 145px;
+	width: 652px;
+	text-align: center;
+}
+.node-type-combo .content header h2 {
+	font-family: AUdimatBold, Helvetica, Arial, sans-serif;
+  font-style: normal !important;
+  font-weight: normal !important;
+  letter-spacing: 0.09em;
+ 	font-size: 40px;
+ 	text-transform: uppercase;
+ 	letter-spacing: 1px;
+	background: rgba(255, 255, 255, 0.7);
+	display: block;
+	margin: 0 auto;
+	padding: 33px 0 0 0;
+	width: 390px;
+}
+.node-type-combo .content header h2	div {
+	border-bottom: 1px dotted #000;
+	margin: 0 35px;
+	padding: 10px 0 25px 0;
+}
+
+.node-type-combo .content header h3 {
+	background: rgba(255, 255, 255, 0.7);
+	display: block;
+	margin: 0 auto;
+	padding: 15px 0 33px 0;
+	width: 390px;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+.node-type-combo .content header p {
+	padding: 0;
+	margin: 0;
+}
+.field-name-field-ref-products-combo {
+	margin-top: 20px;
+}	  
+
+.node-type-combo div.product-teaser,
+.node-type-combo div.field-item {
+	    width: 212px;
+}
+
+.field-name-field-image-front {
+  padding-bottom: 20px;
+  border-bottom: 1px dotted #000;
+}
+table.cols-3 {
+	width: 100%;
+	margin-top: 20px;
+}
+table.cols-3	td {
+  width: 212px;
+  padding-right: $grid-gutter;
+}
+table.cols-3  td.col-last {
+  padding-right: 0;
+}
